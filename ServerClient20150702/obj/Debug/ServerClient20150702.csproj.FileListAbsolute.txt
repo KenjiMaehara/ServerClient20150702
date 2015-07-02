@@ -1,0 +1,18 @@
+c:\users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.exe.config
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.csprojResolveAssemblyReference.cache
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Form1.resources
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Properties.Resources.resources
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.csproj.GenerateResource.Cache
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.exe
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.pdb
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.exe
+C:\Users\kmaeh_000\documents\visual studio 2013\Projects\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.pdb
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.exe.config
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.exe
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.pdb
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.exe
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.pdb
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.csprojResolveAssemblyReference.cache
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Form1.resources
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Properties.Resources.resources
+C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.csproj.GenerateResource.Cache
