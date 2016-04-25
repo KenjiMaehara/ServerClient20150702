@@ -65,8 +65,25 @@ namespace ServerClient20150702
 
         private void button3_Click(object sender, EventArgs e)      //Start Server
         {
+            
+            TcpListener listener = new TcpListener(IPAddress.Any, int.Parse(textBox4.Text));
+            listener.Start();
+            client = listener.AcceptTcpClient();
+            STR = new StreamReader(client.GetStream());
+            STW = new StreamWriter(client.GetStream());
+            STW.AutoFlush = true;
+
+
+            backgroundWorker1.RunWorkerAsync();                         //Start receiving Data in backgraound
+            backgroundWorker2.WorkerSupportsCancellation = true;        //Ability to cancel this thread
+
+            
+
+
+            /*
             client = new TcpClient();
-            IPEndPoint IP_End = new IPEndPoint(IPAddress.Parse(textBox5.Text), int.Parse(textBox6.Text));
+            //IPEndPoint IP_End = new IPEndPoint(IPAddress.Parse(textBox5.Text), int.Parse(textBox6.Text));
+            IPEndPoint IP_End = new IPEndPoint(IPAddress.Parse(textBox3.Text), int.Parse(textBox4.Text));
 
             try
             {
@@ -88,14 +105,19 @@ namespace ServerClient20150702
                 MessageBox.Show(x.Message.ToString());
             }
 
-
-
+            #endif
+            */
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)     //receive data
         {
             while(client.Connected)
             {
+                receive = STR.ReadLine();
+                this.textBox2.Invoke(new MethodInvoker(delegate () { textBox2.AppendText("You : " + receive + "\n"); }));
+                receive = "";
+
+                /*
                 try
                 {
                     receive = STR.ReadLine();
@@ -106,6 +128,7 @@ namespace ServerClient20150702
                 {
                     MessageBox.Show(x.Message.ToString());
                 }
+                */
             }
         }
 
@@ -137,6 +160,8 @@ namespace ServerClient20150702
         private void button2_Click(object sender, EventArgs e)
         {
 
+            /*
+            #if 0
             TcpListener listener = new TcpListener(IPAddress.Any, int.Parse(textBox4.Text));
             listener.Start();
             client = listener.AcceptTcpClient();
@@ -148,6 +173,8 @@ namespace ServerClient20150702
             backgroundWorker1.RunWorkerAsync();                         //Start receiving Data in backgraound
             backgroundWorker2.WorkerSupportsCancellation = true;        //Ability to cancel this thread
 
+            #endif
+            */
         }
 
     }

@@ -16,3 +16,12 @@ C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\S
 C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Form1.resources
 C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Properties.Resources.resources
 C:\Users\kmaeh_000\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.csproj.GenerateResource.Cache
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.exe.config
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.exe
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.pdb
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.exe
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\bin\Debug\ServerClient20150702.pdb
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.csprojResolveAssemblyReference.cache
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Form1.resources
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.Properties.Resources.resources
+C:\Users\健二\Desktop\ServerClient20150702\ServerClient20150702\obj\Debug\ServerClient20150702.csproj.GenerateResource.Cache
