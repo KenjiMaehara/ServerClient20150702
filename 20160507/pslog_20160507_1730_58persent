@@ -1,0 +1,260 @@
+pi@raspberrypi:~ $ ps aux -L
+USER       PID   LWP %CPU NLWP %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1     1  0.0    1  0.4  22936  4052 ?        Ss   16:00   0:05 /sbin/init
+root         2     2  0.0    1  0.0      0     0 ?        S    16:00   0:00 [kthreadd]
+root         3     3  0.0    1  0.0      0     0 ?        S    16:00   0:00 [ksoftirqd/0]
+root         5     5  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/0:0H]
+root         7     7  0.0    1  0.0      0     0 ?        S    16:00   0:04 [rcu_sched]
+root         8     8  0.0    1  0.0      0     0 ?        S    16:00   0:00 [rcu_bh]
+root         9     9  0.0    1  0.0      0     0 ?        S    16:00   0:00 [migration/0]
+root        10    10  0.0    1  0.0      0     0 ?        S    16:00   0:00 [migration/1]
+root        11    11  0.0    1  0.0      0     0 ?        S    16:00   0:00 [ksoftirqd/1]
+root        13    13  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/1:0H]
+root        14    14  0.0    1  0.0      0     0 ?        S    16:00   0:00 [migration/2]
+root        15    15  0.0    1  0.0      0     0 ?        S    16:00   0:00 [ksoftirqd/2]
+root        17    17  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/2:0H]
+root        18    18  0.0    1  0.0      0     0 ?        S    16:00   0:00 [migration/3]
+root        19    19  0.0    1  0.0      0     0 ?        S    16:00   0:00 [ksoftirqd/3]
+root        21    21  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/3:0H]
+root        22    22  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [khelper]
+root        23    23  0.0    1  0.0      0     0 ?        S    16:00   0:00 [kdevtmpfs]
+root        24    24  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [netns]
+root        25    25  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [perf]
+root        26    26  0.0    1  0.0      0     0 ?        S    16:00   0:00 [khungtaskd]
+root        27    27  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [writeback]
+root        28    28  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [crypto]
+root        29    29  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [bioset]
+root        30    30  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kblockd]
+root        32    32  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [rpciod]
+root        33    33  0.0    1  0.0      0     0 ?        S    16:00   0:00 [kswapd0]
+root        34    34  0.0    1  0.0      0     0 ?        S    16:00   0:00 [fsnotify_mark]
+root        35    35  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [nfsiod]
+root        41    41  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kthrotld]
+root        42    42  0.0    1  0.0      0     0 ?        S    16:00   0:00 [kworker/1:1]
+root        43    43  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [VCHIQ-0]
+root        44    44  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [VCHIQr-0]
+root        45    45  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [VCHIQs-0]
+root        46    46  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [iscsi_eh]
+root        47    47  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [dwc_otg]
+root        48    48  0.0    1  0.0      0     0 ?        S    16:00   0:00 [kworker/2:1]
+root        49    49  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [DWC Notificatio]
+root        51    51  0.0    1  0.0      0     0 ?        S    16:00   0:00 [VCHIQka-0]
+root        52    52  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [SMIO]
+root        53    53  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [deferwq]
+root        55    55  0.0    1  0.0      0     0 ?        S    16:00   0:01 [mmcqd/0]
+root        58    58  0.0    1  0.0      0     0 ?        S    16:00   0:00 [jbd2/mmcblk0p7-]
+root        59    59  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [ext4-rsv-conver]
+root        60    60  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [ipv6_addrconf]
+root        74    74  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/2:1H]
+root       107   107  0.0    1  0.3   9948  3228 ?        Ss   16:00   0:01 /lib/systemd/systemd-journald
+root       109   109  0.0    1  0.3  11924  3076 ?        Ss   16:00   0:00 /lib/systemd/systemd-udevd
+root       201   201  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [cfg80211]
+root       203   203  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [brcmf_wq/mmc1:0]
+root       204   204  0.0    1  0.0      0     0 ?        S    16:00   0:00 [brcmf_wdog/mmc1]
+root       216   216  0.0    1  0.0      0     0 ?        S    16:00   0:01 [ksdioirqd/mmc1]
+root       229   229  0.0    1  0.0      0     0 ?        S    16:00   0:00 [kworker/0:2]
+root       392   392  0.0    1  0.2   6504  2416 ?        Ss   16:00   0:00 /usr/sbin/cron -f
+root       393   393  0.0    1  0.2   3852  2428 ?        Ss   16:00   0:00 /lib/systemd/systemd-logind
+root       394   394  0.0    1  0.3   7148  3424 ?        Ss   16:00   0:00 /sbin/wpa_supplicant -s -B -P /run/wpa_supplicant.
+avahi      401   401  0.0    1  0.2   4008  2556 ?        Ss   16:00   0:02 avahi-daemon: running [raspberrypi.local]
+message+   405   405  0.0    1  0.3   5720  3156 ?        Ss   16:00   0:00 /usr/bin/dbus-daemon --system --address=systemd: -
+root       413   413  0.0    1  0.2   2564  1908 ?        Ss   16:00   0:00 /sbin/dhcpcd -q -b
+nobody     435   435  0.0    1  0.1   2292  1460 ?        Ss   16:00   0:00 /usr/sbin/thd --daemon --triggers /etc/triggerhapp
+avahi      442   442  0.0    1  0.0   3876   240 ?        S    16:00   0:00 avahi-daemon: chroot helper
+root       473   473  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/0:1H]
+root       476   476  0.0    4  0.3  32144  2888 ?        Ssl  16:00   0:00 /usr/sbin/rsyslogd -n
+root       476   626  0.0    4  0.3  32144  2888 ?        Ssl  16:00   0:00 /usr/sbin/rsyslogd -n
+root       476   627  0.0    4  0.3  32144  2888 ?        Ssl  16:00   0:00 /usr/sbin/rsyslogd -n
+root       476   629  0.0    4  0.3  32144  2888 ?        Ssl  16:00   0:00 /usr/sbin/rsyslogd -n
+root       519   519  0.0    1  0.4   7860  4392 ?        Ss   16:00   0:00 /usr/sbin/sshd -D
+root       528   528  0.0    3  0.7  40536  6816 ?        Ssl  16:00   0:00 /usr/sbin/lightdm
+root       528   654  0.0    3  0.7  40536  6816 ?        Ssl  16:00   0:00 /usr/sbin/lightdm
+root       528   764  0.0    3  0.7  40536  6816 ?        Ssl  16:00   0:00 /usr/sbin/lightdm
+root       571   571  0.0    1  0.2   5668  2792 tty1     Ss   16:00   0:00 /bin/login -f   
+root       572   572  0.0    1  0.2   5304  1904 ttyS0    Ss+  16:00   0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 v
+ntp        578   578  0.0    1  0.4   5684  3824 ?        Ss   16:00   0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 106:111
+root       595   595  0.0    1  0.0    832     4 ?        S    16:00   0:00 /opt/exagear/images/debian-8-wine2g/.exagear/upsta
+root       683   683  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/u9:0]
+root       684   684  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [hci0]
+root       685   685  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [hci0]
+root       686   686  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/u9:1]
+root       688   688  0.0    1  0.0   2068   132 ?        S    16:00   0:00 /usr/bin/hciattach /dev/ttyAMA0 bcm43xx 921600 nof
+root       694   694  0.0    1  0.3   5008  3452 ?        Ss   16:00   0:00 /usr/lib/bluetooth/bluetoothd
+pi         765   765  0.0    1  0.3   4976  3296 ?        Ss   16:00   0:00 /lib/systemd/systemd --user
+pi         772   772  0.0    1  0.1   6884  1328 ?        S    16:00   0:00 (sd-pam)  
+root       773   773  0.3    5  3.9 115376 37536 tty7     Ssl+ 16:00   0:23 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/r
+root       773   826  0.0    5  3.9 115376 37536 tty7     Ssl+ 16:00   0:00 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/r
+root       773   827  0.0    5  3.9 115376 37536 tty7     Ssl+ 16:00   0:00 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/r
+root       773   828  0.0    5  3.9 115376 37536 tty7     Ssl+ 16:00   0:00 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/r
+root       773   829  0.0    5  3.9 115376 37536 tty7     Ssl+ 16:00   0:00 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/r
+root       777   777  0.0    1  0.3   6772  3040 ?        Ss   16:00   0:00 /usr/lib/postfix/master
+pi         782   782  0.0    1  0.4   7876  4252 tty1     S+   16:00   0:00 -bash
+postfix    786   786  0.0    1  0.3   6896  3048 ?        S    16:00   0:00 qmgr -l -t unix -u
+root       796   796  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:05 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   797  0.1   16  7.7 478044 73828 ?        Sl   16:00   0:09 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   798  0.1   16  7.7 478044 73828 ?        Sl   16:00   0:11 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   799  0.3   16  7.7 478044 73828 ?        Sl   16:00   0:19 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   800  0.1   16  7.7 478044 73828 ?        Sl   16:00   0:10 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   815  0.7   16  7.7 478044 73828 ?        Sl   16:00   0:43 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   817  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:04 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   818  0.1   16  7.7 478044 73828 ?        Sl   16:00   0:06 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   819  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   825  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:01 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   876  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   877  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   878  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   890  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796   898  0.0   16  7.7 478044 73828 ?        Sl   16:00   0:01 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       796  1236  0.0   16  7.7 478044 73828 ?        Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root       834   834  0.0    3  0.7  32876  7336 ?        Sl   16:00   0:00 lightdm --session-child 13 16
+root       834   839  0.0    3  0.7  32876  7336 ?        Sl   16:00   0:00 lightdm --session-child 13 16
+root       834   840  0.0    3  0.7  32876  7336 ?        Sl   16:00   0:00 lightdm --session-child 13 16
+pi         847   847  0.0    3  1.2  53788 12200 ?        Ssl  16:00   0:00 /usr/bin/lxsession -s LXDE-pi -e LXDE
+pi         847   959  0.0    3  1.2  53788 12200 ?        Ssl  16:00   0:00 /usr/bin/lxsession -s LXDE-pi -e LXDE
+pi         847   978  0.0    3  1.2  53788 12200 ?        Ssl  16:00   0:00 /usr/bin/lxsession -s LXDE-pi -e LXDE
+pi         893   893  0.0    1  0.0   3696   220 ?        Ss   16:00   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-wit
+pi         896   896  0.0    1  0.1   3692  1620 ?        S    16:00   0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/
+pi         900   900  0.0    1  0.2   5732  2396 ?        Ss   16:00   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-
+pi         911   911  0.9   14 17.8 437320 169404 ?       Sl   16:00   0:57 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1216  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:04 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1217  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:04 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1218  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:04 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1219  0.1   14 17.8 437320 169404 ?       Sl   16:01   0:10 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1220  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1227  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:04 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1228  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1229  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:04 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1230  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1232  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1248  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1249  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:02 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         911  1250  0.0   14 17.8 437320 169404 ?       Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi         912   912  0.0    3  0.8  52736  7644 ?        Ssl  16:00   0:01 /usr/bin/ibus-daemon --daemonize --xim
+pi         912   926  0.0    3  0.8  52736  7644 ?        Ssl  16:00   0:02 /usr/bin/ibus-daemon --daemonize --xim
+pi         912   932  0.0    3  0.8  52736  7644 ?        Ssl  16:00   0:00 /usr/bin/ibus-daemon --daemonize --xim
+pi         928   928  0.0    2  0.5  32420  5608 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfsd
+pi         928   930  0.0    2  0.5  32420  5608 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfsd
+pi         934   934  0.0    4  0.7  42668  7252 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-dconf
+pi         934   938  0.0    4  0.7  42668  7252 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-dconf
+pi         934   939  0.0    4  0.7  42668  7252 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-dconf
+pi         934   943  0.0    4  0.7  42668  7252 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-dconf
+pi         935   935  0.0    4  2.4  67468 23156 ?        Sl   16:00   0:02 /usr/lib/ibus/ibus-ui-gtk3
+pi         935   963  0.0    4  2.4  67468 23156 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-ui-gtk3
+pi         935   964  0.0    4  2.4  67468 23156 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-ui-gtk3
+pi         935   966  0.0    4  2.4  67468 23156 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-ui-gtk3
+pi         937   937  0.0    3  1.2  44544 12288 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+pi         937   960  0.0    3  1.2  44544 12288 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+pi         937   961  0.0    3  1.2  44544 12288 ?        Sl   16:00   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+pi         942   942  0.0    5  0.5  48520  5420 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o
+pi         942   946  0.0    5  0.5  48520  5420 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o
+pi         942   947  0.0    5  0.5  48520  5420 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o
+pi         942   948  0.0    5  0.5  48520  5420 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o
+pi         942   949  0.0    5  0.5  48520  5420 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o
+root       973   973  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/1:1H]
+root       975   975  0.0    1  0.0      0     0 ?        S<   16:00   0:00 [kworker/3:1H]
+pi         982   982  0.0    1  1.3  28376 12800 ?        S    16:00   0:01 openbox --config-file /home/pi/.config/openbox/lxd
+pi         986   986  0.0    2  0.9  31916  8636 ?        Sl   16:00   0:00 lxpolkit
+pi         986   994  0.0    2  0.9  31916  8636 ?        Sl   16:00   0:00 lxpolkit
+pi         987   987  0.2    6  2.6  98796 24984 ?        Sl   16:00   0:17 lxpanel --profile LXDE-pi
+pi         987  1017  0.0    6  2.6  98796 24984 ?        Sl   16:00   0:00 lxpanel --profile LXDE-pi
+pi         987  1018  0.0    6  2.6  98796 24984 ?        Sl   16:00   0:00 lxpanel --profile LXDE-pi
+pi         987  1068  0.0    6  2.6  98796 24984 ?        Sl   16:00   0:00 lxpanel --profile LXDE-pi
+pi         987  1095  0.0    6  2.6  98796 24984 ?        Sl   16:01   0:00 lxpanel --profile LXDE-pi
+pi         987  1137  0.0    6  2.6  98796 24984 ?        Sl   16:01   0:00 lxpanel --profile LXDE-pi
+pi         988   988  0.0    3  2.1  96268 20544 ?        Sl   16:00   0:01 pcmanfm --desktop --profile LXDE-pi
+pi         988  1010  0.0    3  2.1  96268 20544 ?        Sl   16:00   0:00 pcmanfm --desktop --profile LXDE-pi
+pi         988  1011  0.0    3  2.1  96268 20544 ?        Sl   16:00   0:00 pcmanfm --desktop --profile LXDE-pi
+pi         993   993  0.0    1  0.0   3696   220 ?        Ss   16:00   0:00 /usr/bin/ssh-agent -s
+pi         996   996  0.0    2  3.9  77760 37828 ?        Sl   16:00   0:02 /usr/bin/python /usr/bin/blueman-applet
+pi         996  1134  0.0    2  3.9  77760 37828 ?        Sl   16:01   0:00 /usr/bin/python /usr/bin/blueman-applet
+root       997   997  0.0    3  0.8  41268  7604 ?        Ssl  16:00   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       997  1001  0.0    3  0.8  41268  7604 ?        Ssl  16:00   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       997  1007  0.0    3  0.8  41268  7604 ?        Ssl  16:00   0:00 /usr/lib/policykit-1/polkitd --no-debug
+pi        1004  1004  0.0    2  1.6  48968 15876 ?        Sl   16:00   0:00 /usr/lib/notification-daemon/notification-daemon
+pi        1004  1019  0.0    2  1.6  48968 15876 ?        Sl   16:00   0:00 /usr/lib/notification-daemon/notification-daemon
+pi        1016  1016  0.0    3  0.9  63008  9024 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+pi        1016  1020  0.0    3  0.9  63008  9024 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+pi        1016  1035  0.0    3  0.9  63008  9024 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1021  1021  0.0    5  0.8  59076  8088 ?        Ssl  16:00   0:00 /usr/lib/udisks2/udisksd --no-debug
+root      1021  1023  0.0    5  0.8  59076  8088 ?        Ssl  16:00   0:00 /usr/lib/udisks2/udisksd --no-debug
+root      1021  1025  0.0    5  0.8  59076  8088 ?        Ssl  16:00   0:00 /usr/lib/udisks2/udisksd --no-debug
+root      1021  1026  0.0    5  0.8  59076  8088 ?        Ssl  16:00   0:00 /usr/lib/udisks2/udisksd --no-debug
+root      1021  1029  0.0    5  0.8  59076  8088 ?        Ssl  16:00   0:00 /usr/lib/udisks2/udisksd --no-debug
+pi        1046  1046  0.0    3  0.6  43852  6408 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+pi        1046  1047  0.0    3  0.6  43852  6408 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+pi        1046  1049  0.0    3  0.6  43852  6408 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+pi        1051  1051  0.0    2  0.5  31472  5384 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+pi        1051  1052  0.0    2  0.5  31472  5384 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+pi        1055  1055  0.0    2  0.5  31368  5024 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+pi        1055  1057  0.0    2  0.5  31368  5024 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+pi        1060  1060  0.0    2  0.5  32388  5432 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+pi        1060  1064  0.0    2  0.5  32388  5432 ?        Sl   16:00   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+pi        1077  1077  0.0    3  0.7  33328  7176 ?        Sl   16:01   0:00 /usr/lib/ibus/ibus-engine-simple
+pi        1077  1080  0.0    3  0.7  33328  7176 ?        Sl   16:01   0:00 /usr/lib/ibus/ibus-engine-simple
+pi        1077  1084  0.0    3  0.7  33328  7176 ?        Sl   16:01   0:00 /usr/lib/ibus/ibus-engine-simple
+pi        1082  1082  0.0    3  0.7  52748  7324 ?        Sl   16:01   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/
+pi        1082  1085  0.0    3  0.7  52748  7324 ?        Sl   16:01   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/
+pi        1082  1093  0.0    3  0.7  52748  7324 ?        Sl   16:01   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/
+pi        1094  1094  0.0    3  0.6  29688  5948 ?        Ssl  16:01   0:00 /usr/lib/menu-cache/menu-cached /tmp/.menu-cached-
+pi        1094  1105  0.0    3  0.6  29688  5948 ?        Ssl  16:01   0:00 /usr/lib/menu-cache/menu-cached /tmp/.menu-cached-
+pi        1094  1106  0.0    3  0.6  29688  5948 ?        Ssl  16:01   0:00 /usr/lib/menu-cache/menu-cached /tmp/.menu-cached-
+pi        1108  1108  0.0    3  1.7  43820 16384 ?        Sl   16:01   0:01 python3 /usr/share/ibus-anthy/engine/main.py --ibu
+pi        1108  1158  0.0    3  1.7  43820 16384 ?        Sl   16:01   0:00 python3 /usr/share/ibus-anthy/engine/main.py --ibu
+pi        1108  1160  0.0    3  1.7  43820 16384 ?        Sl   16:01   0:00 python3 /usr/share/ibus-anthy/engine/main.py --ibu
+root      1131  1131  0.0    1  0.0      0     0 ?        S    16:01   0:00 [jbd2/mmcblk0p5-]
+root      1133  1133  0.0    1  0.0      0     0 ?        S<   16:01   0:00 [ext4-rsv-conver]
+pi        1143  1143  0.0    1  0.4  10764  4724 ?        S    16:01   0:00 /usr/lib/arm-linux-gnueabihf/gconf/gconfd-2
+pi        1183  1183  0.4    1  1.1 311484 11224 ?        Ss   16:01   0:27 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1187  1187  0.0    1  0.3  18640  3688 ?        S    16:01   0:00 /usr/bin/obex-data-server --no-daemon 
+root      1197  1197  0.0    1  0.0      0     0 ?        S<   16:01   0:00 [krfcommd]
+pi        1210  1210  0.0    3  1.5 325356 14328 ?        Ssl  16:01   0:01 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1210  1211  0.0    3  1.5 325356 14328 ?        Ssl  16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1210  1212  0.0    3  1.5 325356 14328 ?        Ssl  16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1214  1214  0.0    2  3.3 335180 31592 ?        Ssl  16:01   0:03 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1214  1215  0.0    2  3.3 335180 31592 ?        Ssl  16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1224  1224  2.7    4  3.5 355380 33388 ?        Sl   16:01   2:48 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1224  1226  0.0    4  3.5 355380 33388 ?        Sl   16:01   0:01 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1224  1242  0.0    4  3.5 355380 33388 ?        Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1224  1263  0.0    4  3.5 355380 33388 ?        Sl   16:02   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1225  1225  0.0    3  7.1 380280 67368 ?        Sl   16:01   0:03 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1225  1231  0.0    3  7.1 380280 67368 ?        Sl   16:01   0:00 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+pi        1225  1243  0.0    3  7.1 380280 67368 ?        Sl   16:01   0:05 /opt/exagear/bin/ubt_x32a32_al --path-prefix /opt/
+root      1512  1512  0.0    1  0.0      0     0 ?        S    16:11   0:00 [kworker/u8:2]
+pi        1516  1516  0.0    3  2.2  74624 20976 ?        Rl   16:11   0:02 lxterminal
+pi        1516  1519  0.0    3  2.2  74624 20976 ?        Sl   16:11   0:00 lxterminal
+pi        1516  1523  0.0    3  2.2  74624 20976 ?        Sl   16:11   0:00 lxterminal
+pi        1517  1517  0.0    1  0.1   2348  1456 ?        S    16:11   0:00 gnome-pty-helper
+pi        1518  1518  0.0    1  0.4   7796  4212 pts/0    Ss   16:11   0:00 /bin/bash
+root      1554  1554  0.0    1  0.2   7928  2456 ?        S    16:14   0:00 /usr/sbin/CRON -f
+pi        1561  1561  0.0    1  0.0   1912   404 ?        Ss   16:14   0:00 /bin/sh -c sudo sh /home/pi/python/test20160504_02
+root      1562  1562  0.0    1  0.3   8256  3252 ?        S    16:14   0:00 sudo sh /home/pi/python/test20160504_02.sh
+root      1569  1569  0.0    1  0.0   1912   388 ?        S    16:14   0:00 sh /home/pi/python/test20160504_02.sh
+root      1576  1576 64.1    1  0.0   1912   372 ?        R    16:14  56:51 sh /home/pi/python/autorun_script
+root      2118  2118  0.0    1  0.0      0     0 ?        S    16:36   0:00 [kworker/3:1]
+root      2199  2199  0.0    1  0.0      0     0 ?        S    16:40   0:00 [kworker/2:2]
+root      2202  2202  0.0    1  0.0      0     0 ?        S    16:41   0:00 [kworker/0:1]
+root      2242  2242  0.0    1  0.0      0     0 ?        S    16:42   0:00 [kworker/1:2]
+root      2282  2282  0.0    1  0.0      0     0 ?        S    16:44   0:00 [kworker/3:2]
+root      2283  2283  0.0    1  0.2   7928  2456 ?        S    16:46   0:00 /usr/sbin/CRON -f
+pi        2290  2290  0.0    1  0.0   1912   408 ?        Ss   16:46   0:00 /bin/sh -c sudo sh /home/pi/python/test20160504_02
+root      2291  2291  0.0    1  0.3   8256  3184 ?        S    16:46   0:00 sudo sh /home/pi/python/test20160504_02.sh
+root      2298  2298  0.0    1  0.0   1912   372 ?        S    16:46   0:00 sh /home/pi/python/test20160504_02.sh
+root      2305  2305 46.9    1  0.0   1912   388 ?        R    16:46  26:35 sh /home/pi/python/autorun_script
+postfix   2993  2993  0.0    1  0.3   6852  3120 ?        S    17:14   0:00 pickup -l -t unix -u -c
+root      3056  3056  0.0    1  0.2   7928  2456 ?        S    17:18   0:00 /usr/sbin/CRON -f
+pi        3063  3063  0.0    1  0.0   1912   392 ?        Ss   17:18   0:00 /bin/sh -c sudo sh /home/pi/python/test20160504_02
+root      3064  3064  0.0    1  0.3   8256  3204 ?        S    17:18   0:00 sudo sh /home/pi/python/test20160504_02.sh
+root      3071  3071  0.0    1  0.0   1912   380 ?        S    17:18   0:00 sh /home/pi/python/test20160504_02.sh
+root      3078  3078  0.0    1  0.0   1912   404 ?        S    17:18   0:00 sh /home/pi/python/autorun_script
+root      3079  3079  0.0    1  1.6  26900 15336 ?        S    17:18   0:00 python /home/pi/Desktop/tcp_client1_02.py
+root      3277  3277  0.0    1  0.0      0     0 ?        S    17:29   0:00 [kworker/u8:1]
+root      3408  3408  0.0    1  0.0      0     0 ?        S    17:35   0:00 [kworker/u8:0]
+root      3526  3526  0.0    1  0.0      0     0 ?        S    17:40   0:00 [kworker/0:0]
+pi        3540  3540  6.2    3  2.2  73264 21556 ?        Sl   17:41   0:05 leafpad /home/pi/Desktop/pslog_20160506_0630
+pi        3540  3541  0.2    3  2.2  73264 21556 ?        Sl   17:41   0:00 leafpad /home/pi/Desktop/pslog_20160506_0630
+pi        3540  3542  0.0    3  2.2  73264 21556 ?        Sl   17:41   0:00 leafpad /home/pi/Desktop/pslog_20160506_0630
+postfix   3578  3578  0.0    1  0.3   6936  3200 ?        S    17:42   0:00 cleanup -z -t unix -u -c
+postfix   3585  3585  0.0    1  0.3   6860  3008 ?        S    17:42   0:00 trivial-rewrite -n rewrite -t unix -u -c
+postfix   3586  3586  0.0    1  0.4   6888  4356 ?        S    17:42   0:00 local -t unix
+pi        3589  3589  0.0    1  0.2   6172  2172 pts/0    R+   17:42   0:00 ps aux -L
+pi@raspberrypi:~ $ 
